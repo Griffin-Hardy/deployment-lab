@@ -10,8 +10,24 @@ button {
     border-bottom: 2px solid aqua;
     padding: 10px 20px;
     font-weight: bold;
+    
 }
 
 p {
     width: 50%;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.column {
+	flex: 33.33%;
+	padding: 5px;
+  }
+
+  img {
+	max-width: 300px;
 }
